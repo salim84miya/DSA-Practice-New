@@ -67,25 +67,6 @@ public class TripletClosestSum{
                     right--;
                 }
             }
-
-            // if(right<n-1){
-            //     int sum = nums[i] + nums[left]+nums[right+1];
-            //     int sumDiff = Math.abs(sum-target);
-            //     int maxValueDiff = Math.abs(closestSum-target);
-                    
-            //         if(maxValueDiff>sumDiff){
-            //             closestSum = sum;
-            //         }
-
-            // }else{
-            //     int sum = nums[i] + nums[left-1]+nums[right];
-            //     int sumDiff = Math.abs(sum-target);
-            //     int maxValueDiff = Math.abs(closestSum-target);
-                    
-            //         if(maxValueDiff>sumDiff){
-            //             closestSum = sum;
-            //         }
-            // }
         
         }
 
